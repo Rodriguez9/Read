@@ -1,17 +1,13 @@
-//
-//  AppDelegate.m
-//  Read
-//
-//  Created by Jarvis on 2020/12/11.
-//  Copyright © 2020 Jarvis. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 #import "TabBarController.h"
 #import "APIS.h"
+#import "Globe.h"
+#import "ReadStateDefault.h"
 @interface AppDelegate ()
 @property(nonatomic, strong) TabBarController *tabController;
+@property(nonatomic, strong) ReadMainViewController *readController;
 @end
 
 @implementation AppDelegate
@@ -23,15 +19,34 @@
     return _tabController;
 }
 
+-(ReadMainViewController *)readController{
+    if (!_readController) {
+        self.readController = [[ReadMainViewController alloc] init];
+    }
+    return _readController;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = self.tabController;
-    [self.window makeKeyAndVisible];
+    [self CheckState];
+    if (!SexType) {
+        [userdefault setValue:@"male" forKey:sexTypeKey];
+        [userdefault synchronize];
+    }
 
     return YES;
+}
+
+-(void)CheckState{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+//    if ([[ReadStateDefault sharedStateDefault] chooseReadState]) {
+//        self.window.rootViewController = self.readController;
+//    } else {
+//        self.window.rootViewController = self.tabController;
+//    }
+    self.window.rootViewController = self.tabController;
+    [self.window makeKeyAndVisible];
 }
 
 

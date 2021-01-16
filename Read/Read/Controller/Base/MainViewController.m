@@ -1,10 +1,4 @@
-//
-//  MainViewController.m
-//  Read
-//
-//  Created by Jarvis on 2020/12/11.
-//  Copyright © 2020 Jarvis. All rights reserved.
-//
+
 
 #import "MainViewController.h"
 

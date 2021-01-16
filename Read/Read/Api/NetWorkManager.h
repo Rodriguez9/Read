@@ -1,10 +1,4 @@
-//
-//  NetWorkManager.h
-//  Read
-//
-//  Created by Jarvis on 2020/12/23.
-//  Copyright © 2020 Jarvis. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 #import <AFNetworking/AFHTTPSessionManager.h>
@@ -22,18 +16,13 @@ typedef void(^RequsetFailure)(NSError *error);
 #define NetWorkingManager [NetWorkManager netWorkManager]
 
 @interface NetWorkManager : NSObject
-/**
- *   httpRequest
- */
+
 + (NetWorkManager *)netWorkManager;
 
 
 //这个函数就是将字典封装成转义的JSON字符串
 - (NSString *)toJSONString:(NSDictionary *)dict;
 
-/**
- *   get
- */
 - (void)getRequestUrl:(NSString *)urlStr
          withPramater:(NSDictionary *)pramater
                sucess:(RequsetSuccess)sucessCallBack

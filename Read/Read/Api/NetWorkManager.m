@@ -1,16 +1,9 @@
-//
-//  HWNetWorkManager.m
-//  嗨文
-//
-//  Created by 响当当 on 2019/1/8.
-//  Copyright © 2019年 dongzheng. All rights reserved.
-//
+
 
 #import "NetWorkManager.h"
 #import <AFNetworking/AFHTTPSessionManager.h>
 #import "Globe.h"
 #import <YYModel.h>
-#import "CategoryModel.h"
 
 typedef enum REQUESTSTATUS
 {
@@ -113,9 +106,7 @@ static const NSUInteger kDefaultTimeoutInterval = 15;
                 
                 switch ([code intValue]) {
                     case REQUESTSTATUS_SUCESS:
-                        //dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                             sucessCallBack(dict);
-                        //});
                         break;
                 }
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {

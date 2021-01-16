@@ -1,10 +1,4 @@
-//
-//  APIS.h
-//  Read
-//
-//  Created by Jarvis on 2020/12/23.
-//  Copyright © 2020 Jarvis. All rights reserved.
-//
+
 
 #ifndef APIS_h
 #define APIS_h

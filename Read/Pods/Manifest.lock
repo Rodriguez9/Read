@@ -17,7 +17,6 @@ PODS:
   - HMSegmentedControl (1.5.6)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - MJRefresh (3.1.17)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -25,7 +24,6 @@ DEPENDENCIES:
   - HMSegmentedControl (~> 1.5.6)
   - Masonry (~> 1.1.0)
   - MBProgressHUD
-  - MJRefresh (~> 3.1.14)
   - YYModel (~> 1.0.4)
 
 SPEC REPOS:
@@ -34,7 +32,6 @@ SPEC REPOS:
     - HMSegmentedControl
     - Masonry
     - MBProgressHUD
-    - MJRefresh
     - YYModel
 
 SPEC CHECKSUMS:
@@ -42,9 +39,8 @@ SPEC CHECKSUMS:
   HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 9702e12c0c5f9340a61a4bba407ddd7659a2b5ef
+PODFILE CHECKSUM: 6ffa4ab0191fa815c964734747d4fbf4ac000ee5
 
 COCOAPODS: 1.10.0
