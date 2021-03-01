@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '松鼠文学-热门全本小说电子书阅读器' do
+  #source 'https://github.com/CocoaPods/Specs.git'
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+ pod 'YYModel', '~> 1.0.4'
+  pod 'Masonry', '~> 1.1.0'
+   pod 'HMSegmentedControl', '~> 1.5.6'
+   pod 'AFNetworking', '~> 4.0.1'
+  pod 'MBProgressHUD'
+  pod 'SDWebImage', '~> 5.10.0'
+
+end

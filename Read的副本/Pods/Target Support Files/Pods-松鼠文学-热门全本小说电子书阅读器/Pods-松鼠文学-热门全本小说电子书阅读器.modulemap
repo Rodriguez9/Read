@@ -1,0 +1,6 @@
+framework module Pods__________________ {
+  umbrella header "Pods-松鼠文学-热门全本小说电子书阅读器-umbrella.h"
+
+  export *
+  module * { export * }
+}

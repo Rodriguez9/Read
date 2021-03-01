@@ -1,0 +1,949 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632088AF25A4613A001290E3 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 632088AE25A4613A001290E3 /* UIImage+Blur.m */; };
+		632D982F258320D600B2BBCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 632D982E258320D600B2BBCF /* AppDelegate.m */; };
+		632D983A258320D900B2BBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632D9839258320D900B2BBCF /* Assets.xcassets */; };
+		632D983D258320D900B2BBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632D983B258320D900B2BBCF /* LaunchScreen.storyboard */; };
+		632D9840258320D900B2BBCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 632D983F258320D900B2BBCF /* main.m */; };
+		632D98482583212F00B2BBCF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632D98472583212F00B2BBCF /* BaseViewController.m */; };
+		632D985125834B2A00B2BBCF /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632D985025834B2A00B2BBCF /* PageViewController.m */; };
+		632D985C2583718100B2BBCF /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632D985B2583718100B2BBCF /* BaseTableViewCell.m */; };
+		632D985F258375DD00B2BBCF /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632D985E258375DD00B2BBCF /* RankViewController.m */; };
+		632D98632583818800B2BBCF /* RankViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632D98622583818800B2BBCF /* RankViewCell.m */; };
+		63364EE525B035E500D198C2 /* CategoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63364EE425B035E500D198C2 /* CategoryViewCell.m */; };
+		63364EEA25B036B500D198C2 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63364EE925B036B500D198C2 /* CategoryViewController.m */; };
+		6342BC7F25BA6A6C00645239 /* ReadFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342BC7A25BA6A6C00645239 /* ReadFrame.m */; };
+		6342BC8125BA6A6C00645239 /* NSString+Read.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342BC7E25BA6A6C00645239 /* NSString+Read.m */; };
+		6342BC8525BA6AAE00645239 /* ReadStateDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342BC8425BA6AAD00645239 /* ReadStateDefault.m */; };
+		6342BCA325BAA30600645239 /* ReadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6342BCA225BAA30600645239 /* ReadController.m */; };
+		6350ED6B25CE4BC800FA9120 /* UIView+rd_wid.m in Sources */ = {isa = PBXBuildFile; fileRef = 6350ED6A25CE4BC800FA9120 /* UIView+rd_wid.m */; };
+		6350ED7125CE783000FA9120 /* BoutiqueListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6350ED7025CE783000FA9120 /* BoutiqueListViewController.m */; };
+		63565DDE259B2B1400187730 /* BoutiqueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63565DDD259B2B1400187730 /* BoutiqueCell.m */; };
+		63565DE4259B301400187730 /* BoutiqueHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63565DE3259B301400187730 /* BoutiqueHeadCell.m */; };
+		635FB0ED25957BE100144B5B /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635FB0EC25957BE100144B5B /* TabBarController.m */; };
+		637B18002597396500C04C75 /* 至尊毒妃邪王的盛宠娇妃.txt in Resources */ = {isa = PBXBuildFile; fileRef = 637B17FF2597396500C04C75 /* 至尊毒妃邪王的盛宠娇妃.txt */; };
+		637B180425973A5200C04C75 /* 富贵小丫鬟.txt in Resources */ = {isa = PBXBuildFile; fileRef = 637B180325973A5200C04C75 /* 富贵小丫鬟.txt */; };
+		637B182525973CB400C04C75 /* 穿书后嫁给前夫他舅舅.txt in Resources */ = {isa = PBXBuildFile; fileRef = 637B181025973CB300C04C75 /* 穿书后嫁给前夫他舅舅.txt */; };
+		637B182A25973CB400C04C75 /* 元后传.txt in Resources */ = {isa = PBXBuildFile; fileRef = 637B181525973CB400C04C75 /* 元后传.txt */; };
+		637B1832259740A400C04C75 /* BoutiqueListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637B1831259740A400C04C75 /* BoutiqueListController.m */; };
+		6396A4D625A31E72008F1100 /* ComicHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 6396A4D525A31E72008F1100 /* ComicHead.m */; };
+		6396A4D925A320FC008F1100 /* ComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6396A4D825A320FC008F1100 /* ComicViewController.m */; };
+		63A3F43025A7FF3B00D0801E /* BoutiqueViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3F42E25A7FF3B00D0801E /* BoutiqueViewCell.m */; };
+		63A3F43B25A8099700D0801E /* 皇叔溺宠废材小医妃.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A3F43125A8099400D0801E /* 皇叔溺宠废材小医妃.txt */; };
+		63A3F43C25A8099700D0801E /* 兽黑狂妃皇叔逆天宠.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A3F43225A8099400D0801E /* 兽黑狂妃皇叔逆天宠.txt */; };
+		63A3F43E25A8099700D0801E /* 团宠公主三岁半.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A3F43425A8099500D0801E /* 团宠公主三岁半.txt */; };
+		63A3F43F25A8099700D0801E /* 王的女人谁敢动.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A3F43525A8099500D0801E /* 王的女人谁敢动.txt */; };
+		63A3F44025A8099700D0801E /* 神医魔后不好惹.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A3F43625A8099600D0801E /* 神医魔后不好惹.txt */; };
+		63A3F44125A8099700D0801E /* 丑女神医农门太子妃.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A3F43725A8099600D0801E /* 丑女神医农门太子妃.txt */; };
+		63A3F44325A8099700D0801E /* 废柴嫡女要翻天.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A3F43925A8099600D0801E /* 废柴嫡女要翻天.txt */; };
+		63A3F44425A8099700D0801E /* 邪帝的神医弃妃.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63A3F43A25A8099700D0801E /* 邪帝的神医弃妃.txt */; };
+		63B33C5425B4400300C35D44 /* BookshelfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B33C5325B4400300C35D44 /* BookshelfController.m */; };
+		63B33C5925B4402D00C35D44 /* BookshelfViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B33C5825B4402D00C35D44 /* BookshelfViewCell.m */; };
+		63B33C7725B47CAE00C35D44 /* RankHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B33C7625B47CAE00C35D44 /* RankHeadView.m */; };
+		63B851E725CBF71B00F64897 /* BoutiqueFootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B851E625CBF71B00F64897 /* BoutiqueFootCell.m */; };
+		63C16585258694390017BB3E /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C16584258694390017BB3E /* BaseCollectionViewCell.m */; };
+		63C88E6A25A57084002DDF08 /* UINavigationController+back.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C88E6925A57084002DDF08 /* UINavigationController+back.m */; };
+		63E565612592F6FF003C5F06 /* ChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E565432592F6FE003C5F06 /* ChapterModel.m */; };
+		63E565622592F6FF003C5F06 /* ReadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E565442592F6FE003C5F06 /* ReadTool.m */; };
+		63E565632592F6FF003C5F06 /* TopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E565492592F6FF003C5F06 /* TopMenuView.m */; };
+		63E565642592F6FF003C5F06 /* ThemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5654E2592F6FF003C5F06 /* ThemView.m */; };
+		63E565652592F6FF003C5F06 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5654F2592F6FF003C5F06 /* MenuView.m */; };
+		63E565662592F6FF003C5F06 /* BottomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E565512592F6FF003C5F06 /* BottomMenuView.m */; };
+		63E565672592F6FF003C5F06 /* ReadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E565522592F6FF003C5F06 /* ReadView.m */; };
+		63E565682592F6FF003C5F06 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E565532592F6FF003C5F06 /* UIImage+ImageEffects.m */; };
+		63E5656A2592F6FF003C5F06 /* UIView+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E565592592F6FF003C5F06 /* UIView+JZExtension.m */; };
+		63E5656B2592F6FF003C5F06 /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5655B2592F6FF003C5F06 /* ReadViewController.m */; };
+		63E5656C2592F6FF003C5F06 /* CurrentReadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5655E2592F6FF003C5F06 /* CurrentReadController.m */; };
+		63E5656D2592F6FF003C5F06 /* CoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E565602592F6FF003C5F06 /* CoverController.m */; };
+		63E56570259308AB003C5F06 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5656F259308AB003C5F06 /* Model.m */; };
+		63E5657825930E48003C5F06 /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E5657725930E48003C5F06 /* NetWorkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		371807930B40CBBEC32CA08D /* Pods-Read.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Read.release.xcconfig"; path = "Target Support Files/Pods-Read/Pods-Read.release.xcconfig"; sourceTree = "<group>"; };
+		632088AD25A4613A001290E3 /* UIImage+Blur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		632088AE25A4613A001290E3 /* UIImage+Blur.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		632D982A258320D600B2BBCF /* 松鼠文学-热门全本小说电子书阅读器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "松鼠文学-热门全本小说电子书阅读器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		632D982D258320D600B2BBCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		632D982E258320D600B2BBCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		632D9839258320D900B2BBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632D983C258320D900B2BBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		632D983E258320D900B2BBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632D983F258320D900B2BBCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		632D98462583212F00B2BBCF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		632D98472583212F00B2BBCF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		632D984F25834B2A00B2BBCF /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		632D985025834B2A00B2BBCF /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		632D985A2583718100B2BBCF /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		632D985B2583718100B2BBCF /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		632D985D258375DD00B2BBCF /* RankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		632D985E258375DD00B2BBCF /* RankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		632D98602583788500B2BBCF /* Globe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globe.h; sourceTree = "<group>"; };
+		632D98612583818800B2BBCF /* RankViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankViewCell.h; sourceTree = "<group>"; };
+		632D98622583818800B2BBCF /* RankViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankViewCell.m; sourceTree = "<group>"; };
+		63364EE325B035E500D198C2 /* CategoryViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewCell.h; sourceTree = "<group>"; };
+		63364EE425B035E500D198C2 /* CategoryViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewCell.m; sourceTree = "<group>"; };
+		63364EE825B036B500D198C2 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		63364EE925B036B500D198C2 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		6342BC7925BA6A6C00645239 /* ReadFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadFrame.h; sourceTree = "<group>"; };
+		6342BC7A25BA6A6C00645239 /* ReadFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadFrame.m; sourceTree = "<group>"; };
+		6342BC7B25BA6A6C00645239 /* NSString+Read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Read.h"; sourceTree = "<group>"; };
+		6342BC7E25BA6A6C00645239 /* NSString+Read.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Read.m"; sourceTree = "<group>"; };
+		6342BC8325BA6AAD00645239 /* ReadStateDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadStateDefault.h; sourceTree = "<group>"; };
+		6342BC8425BA6AAD00645239 /* ReadStateDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadStateDefault.m; sourceTree = "<group>"; };
+		6342BCA125BAA30500645239 /* ReadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadController.h; sourceTree = "<group>"; };
+		6342BCA225BAA30600645239 /* ReadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadController.m; sourceTree = "<group>"; };
+		6350ED6925CE4BC800FA9120 /* UIView+rd_wid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+rd_wid.h"; sourceTree = "<group>"; };
+		6350ED6A25CE4BC800FA9120 /* UIView+rd_wid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+rd_wid.m"; sourceTree = "<group>"; };
+		6350ED6F25CE783000FA9120 /* BoutiqueListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoutiqueListViewController.h; sourceTree = "<group>"; };
+		6350ED7025CE783000FA9120 /* BoutiqueListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoutiqueListViewController.m; sourceTree = "<group>"; };
+		63565DDC259B2B1400187730 /* BoutiqueCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoutiqueCell.h; sourceTree = "<group>"; };
+		63565DDD259B2B1400187730 /* BoutiqueCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoutiqueCell.m; sourceTree = "<group>"; };
+		63565DE2259B301400187730 /* BoutiqueHeadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoutiqueHeadCell.h; sourceTree = "<group>"; };
+		63565DE3259B301400187730 /* BoutiqueHeadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoutiqueHeadCell.m; sourceTree = "<group>"; };
+		635FB0EB25957BE100144B5B /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		635FB0EC25957BE100144B5B /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		637B17FF2597396500C04C75 /* 至尊毒妃邪王的盛宠娇妃.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "至尊毒妃邪王的盛宠娇妃.txt"; sourceTree = "<group>"; };
+		637B180325973A5200C04C75 /* 富贵小丫鬟.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "富贵小丫鬟.txt"; sourceTree = "<group>"; };
+		637B181025973CB300C04C75 /* 穿书后嫁给前夫他舅舅.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "穿书后嫁给前夫他舅舅.txt"; sourceTree = "<group>"; };
+		637B181525973CB400C04C75 /* 元后传.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "元后传.txt"; sourceTree = "<group>"; };
+		637B1830259740A400C04C75 /* BoutiqueListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoutiqueListController.h; sourceTree = "<group>"; };
+		637B1831259740A400C04C75 /* BoutiqueListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoutiqueListController.m; sourceTree = "<group>"; };
+		6396A4D525A31E72008F1100 /* ComicHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicHead.m; sourceTree = "<group>"; };
+		6396A4D725A320FC008F1100 /* ComicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComicViewController.h; sourceTree = "<group>"; };
+		6396A4D825A320FC008F1100 /* ComicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComicViewController.m; sourceTree = "<group>"; };
+		63A3F42E25A7FF3B00D0801E /* BoutiqueViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoutiqueViewCell.m; sourceTree = "<group>"; };
+		63A3F42F25A7FF3B00D0801E /* BoutiqueViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoutiqueViewCell.h; sourceTree = "<group>"; };
+		63A3F43125A8099400D0801E /* 皇叔溺宠废材小医妃.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "皇叔溺宠废材小医妃.txt"; sourceTree = "<group>"; };
+		63A3F43225A8099400D0801E /* 兽黑狂妃皇叔逆天宠.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "兽黑狂妃皇叔逆天宠.txt"; sourceTree = "<group>"; };
+		63A3F43425A8099500D0801E /* 团宠公主三岁半.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "团宠公主三岁半.txt"; sourceTree = "<group>"; };
+		63A3F43525A8099500D0801E /* 王的女人谁敢动.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "王的女人谁敢动.txt"; sourceTree = "<group>"; };
+		63A3F43625A8099600D0801E /* 神医魔后不好惹.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "神医魔后不好惹.txt"; sourceTree = "<group>"; };
+		63A3F43725A8099600D0801E /* 丑女神医农门太子妃.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "丑女神医农门太子妃.txt"; sourceTree = "<group>"; };
+		63A3F43925A8099600D0801E /* 废柴嫡女要翻天.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "废柴嫡女要翻天.txt"; sourceTree = "<group>"; };
+		63A3F43A25A8099700D0801E /* 邪帝的神医弃妃.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "邪帝的神医弃妃.txt"; sourceTree = "<group>"; };
+		63B33C5225B4400300C35D44 /* BookshelfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookshelfController.h; sourceTree = "<group>"; };
+		63B33C5325B4400300C35D44 /* BookshelfController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookshelfController.m; sourceTree = "<group>"; };
+		63B33C5725B4402D00C35D44 /* BookshelfViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookshelfViewCell.h; sourceTree = "<group>"; };
+		63B33C5825B4402D00C35D44 /* BookshelfViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookshelfViewCell.m; sourceTree = "<group>"; };
+		63B33C7525B47CAE00C35D44 /* RankHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankHeadView.h; sourceTree = "<group>"; };
+		63B33C7625B47CAE00C35D44 /* RankHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankHeadView.m; sourceTree = "<group>"; };
+		63B851E525CBF71B00F64897 /* BoutiqueFootCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoutiqueFootCell.h; sourceTree = "<group>"; };
+		63B851E625CBF71B00F64897 /* BoutiqueFootCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoutiqueFootCell.m; sourceTree = "<group>"; };
+		63C16583258694390017BB3E /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		63C16584258694390017BB3E /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		63C88E6825A57084002DDF08 /* UINavigationController+back.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+back.h"; sourceTree = "<group>"; };
+		63C88E6925A57084002DDF08 /* UINavigationController+back.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+back.m"; sourceTree = "<group>"; };
+		63C88E6E25A5BED8002DDF08 /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C88E7425A5BEEA002DDF08 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C88E7725A5BEED002DDF08 /* HMSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HMSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C88E7A25A5BEF2002DDF08 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C88E7D25A5BF00002DDF08 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E565432592F6FE003C5F06 /* ChapterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterModel.m; sourceTree = "<group>"; };
+		63E565442592F6FE003C5F06 /* ReadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadTool.m; sourceTree = "<group>"; };
+		63E565452592F6FE003C5F06 /* ReadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadTool.h; sourceTree = "<group>"; };
+		63E565462592F6FE003C5F06 /* ChapterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterModel.h; sourceTree = "<group>"; };
+		63E565482592F6FF003C5F06 /* BottomMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomMenuView.h; sourceTree = "<group>"; };
+		63E565492592F6FF003C5F06 /* TopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopMenuView.m; sourceTree = "<group>"; };
+		63E5654A2592F6FF003C5F06 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		63E5654B2592F6FF003C5F06 /* ThemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemView.h; sourceTree = "<group>"; };
+		63E5654C2592F6FF003C5F06 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		63E5654D2592F6FF003C5F06 /* ReadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadView.h; sourceTree = "<group>"; };
+		63E5654E2592F6FF003C5F06 /* ThemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemView.m; sourceTree = "<group>"; };
+		63E5654F2592F6FF003C5F06 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		63E565502592F6FF003C5F06 /* TopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopMenuView.h; sourceTree = "<group>"; };
+		63E565512592F6FF003C5F06 /* BottomMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomMenuView.m; sourceTree = "<group>"; };
+		63E565522592F6FF003C5F06 /* ReadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadView.m; sourceTree = "<group>"; };
+		63E565532592F6FF003C5F06 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		63E565552592F6FF003C5F06 /* Const_UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const_UI.h; sourceTree = "<group>"; };
+		63E565572592F6FF003C5F06 /* UIView+JZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JZExtension.h"; sourceTree = "<group>"; };
+		63E565592592F6FF003C5F06 /* UIView+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JZExtension.m"; sourceTree = "<group>"; };
+		63E5655B2592F6FF003C5F06 /* ReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		63E5655C2592F6FF003C5F06 /* CurrentReadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentReadController.h; sourceTree = "<group>"; };
+		63E5655D2592F6FF003C5F06 /* CoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverController.h; sourceTree = "<group>"; };
+		63E5655E2592F6FF003C5F06 /* CurrentReadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentReadController.m; sourceTree = "<group>"; };
+		63E5655F2592F6FF003C5F06 /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		63E565602592F6FF003C5F06 /* CoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverController.m; sourceTree = "<group>"; };
+		63E5656E259308AA003C5F06 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		63E5656F259308AB003C5F06 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		63E5657525930D67003C5F06 /* APIS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIS.h; sourceTree = "<group>"; };
+		63E5657625930E48003C5F06 /* NetWorkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
+		63E5657725930E48003C5F06 /* NetWorkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		63EBDF7825CFC0D6009FCF50 /* ComicHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicHead.h; sourceTree = "<group>"; };
+		78404C7BE9B4AD5A51499F01 /* Pods-松鼠文学-热门全本小说电子书阅读器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-松鼠文学-热门全本小说电子书阅读器.debug.xcconfig"; path = "Target Support Files/Pods-松鼠文学-热门全本小说电子书阅读器/Pods-松鼠文学-热门全本小说电子书阅读器.debug.xcconfig"; sourceTree = "<group>"; };
+		82F542309FE3089DEB403B91 /* Pods__________________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods__________________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		851A3963E245A7F4C825191B /* Pods-Read.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Read.debug.xcconfig"; path = "Target Support Files/Pods-Read/Pods-Read.debug.xcconfig"; sourceTree = "<group>"; };
+		D5107F35C20678749FD93D07 /* Pods-松鼠文学-热门全本小说电子书阅读器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-松鼠文学-热门全本小说电子书阅读器.release.xcconfig"; path = "Target Support Files/Pods-松鼠文学-热门全本小说电子书阅读器/Pods-松鼠文学-热门全本小说电子书阅读器.release.xcconfig"; sourceTree = "<group>"; };
+		D73D46E33370BED069864BE6 /* Pods_Read.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Read.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632D9827258320D600B2BBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D3F0101DD72A1A1A8230C2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				851A3963E245A7F4C825191B /* Pods-Read.debug.xcconfig */,
+				371807930B40CBBEC32CA08D /* Pods-Read.release.xcconfig */,
+				78404C7BE9B4AD5A51499F01 /* Pods-松鼠文学-热门全本小说电子书阅读器.debug.xcconfig */,
+				D5107F35C20678749FD93D07 /* Pods-松鼠文学-热门全本小说电子书阅读器.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		630F315125A56CDA002E0440 /* Comic */ = {
+			isa = PBXGroup;
+			children = (
+				630F315325A56CFD002E0440 /* Controller */,
+				630F315225A56CF3002E0440 /* View */,
+			);
+			path = Comic;
+			sourceTree = "<group>";
+		};
+		630F315225A56CF3002E0440 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63EBDF7825CFC0D6009FCF50 /* ComicHead.h */,
+				6396A4D525A31E72008F1100 /* ComicHead.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		630F315325A56CFD002E0440 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6396A4D725A320FC008F1100 /* ComicViewController.h */,
+				6396A4D825A320FC008F1100 /* ComicViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		632D9821258320D600B2BBCF = {
+			isa = PBXGroup;
+			children = (
+				632D982C258320D600B2BBCF /* Read */,
+				632D982B258320D600B2BBCF /* Products */,
+				1D3F0101DD72A1A1A8230C2E /* Pods */,
+				67460325CB4D23A27E763D20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		632D982B258320D600B2BBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				632D982A258320D600B2BBCF /* 松鼠文学-热门全本小说电子书阅读器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		632D982C258320D600B2BBCF /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				6350ED6E25CE77CF00FA9120 /* BoutiqueList */,
+				6342BC8825BA6D0900645239 /* Config */,
+				637B180525973CA400C04C75 /* Book */,
+				63E5657125930AC1003C5F06 /* Api */,
+				63E5655A2592F6FF003C5F06 /* Controller */,
+				63E565422592F6FE003C5F06 /* model */,
+				63E565542592F6FF003C5F06 /* Other */,
+				63E565472592F6FF003C5F06 /* View */,
+				63CE665D259DBCA7007AFFB4 /* RankList */,
+				630F315125A56CDA002E0440 /* Comic */,
+				63565DDF259B2F9000187730 /* Boutique */,
+				63B33C5125B43FBD00C35D44 /* Bookshelf */,
+				63364EE025B034D000D198C2 /* Category */,
+				632D982D258320D600B2BBCF /* AppDelegate.h */,
+				632D982E258320D600B2BBCF /* AppDelegate.m */,
+				632D9839258320D900B2BBCF /* Assets.xcassets */,
+				632D983B258320D900B2BBCF /* LaunchScreen.storyboard */,
+				632D983E258320D900B2BBCF /* Info.plist */,
+				632D983F258320D900B2BBCF /* main.m */,
+				632D98602583788500B2BBCF /* Globe.h */,
+				635FB0EB25957BE100144B5B /* TabBarController.h */,
+				635FB0EC25957BE100144B5B /* TabBarController.m */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		63364EE025B034D000D198C2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				63364EE225B034F000D198C2 /* Controller */,
+				63364EE125B034EA00D198C2 /* View */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		63364EE125B034EA00D198C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63364EE325B035E500D198C2 /* CategoryViewCell.h */,
+				63364EE425B035E500D198C2 /* CategoryViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63364EE225B034F000D198C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63364EE825B036B500D198C2 /* CategoryViewController.h */,
+				63364EE925B036B500D198C2 /* CategoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6342BC8825BA6D0900645239 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				6342BC7B25BA6A6C00645239 /* NSString+Read.h */,
+				6342BC7E25BA6A6C00645239 /* NSString+Read.m */,
+				6342BCA125BAA30500645239 /* ReadController.h */,
+				6342BCA225BAA30600645239 /* ReadController.m */,
+				6342BC7925BA6A6C00645239 /* ReadFrame.h */,
+				6342BC7A25BA6A6C00645239 /* ReadFrame.m */,
+				6342BC8325BA6AAD00645239 /* ReadStateDefault.h */,
+				6342BC8425BA6AAD00645239 /* ReadStateDefault.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		6350ED6E25CE77CF00FA9120 /* BoutiqueList */ = {
+			isa = PBXGroup;
+			children = (
+				6350ED6F25CE783000FA9120 /* BoutiqueListViewController.h */,
+				6350ED7025CE783000FA9120 /* BoutiqueListViewController.m */,
+			);
+			path = BoutiqueList;
+			sourceTree = "<group>";
+		};
+		63565DDF259B2F9000187730 /* Boutique */ = {
+			isa = PBXGroup;
+			children = (
+				63565DE1259B2FA500187730 /* Controller */,
+				63565DE0259B2F9B00187730 /* View */,
+			);
+			path = Boutique;
+			sourceTree = "<group>";
+		};
+		63565DE0259B2F9B00187730 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63565DDC259B2B1400187730 /* BoutiqueCell.h */,
+				63565DDD259B2B1400187730 /* BoutiqueCell.m */,
+				63A3F42F25A7FF3B00D0801E /* BoutiqueViewCell.h */,
+				63A3F42E25A7FF3B00D0801E /* BoutiqueViewCell.m */,
+				63565DE2259B301400187730 /* BoutiqueHeadCell.h */,
+				63565DE3259B301400187730 /* BoutiqueHeadCell.m */,
+				63B851E525CBF71B00F64897 /* BoutiqueFootCell.h */,
+				63B851E625CBF71B00F64897 /* BoutiqueFootCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63565DE1259B2FA500187730 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				637B1830259740A400C04C75 /* BoutiqueListController.h */,
+				637B1831259740A400C04C75 /* BoutiqueListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		637B180525973CA400C04C75 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				637B17FF2597396500C04C75 /* 至尊毒妃邪王的盛宠娇妃.txt */,
+				637B180325973A5200C04C75 /* 富贵小丫鬟.txt */,
+				63A3F43725A8099600D0801E /* 丑女神医农门太子妃.txt */,
+				637B181025973CB300C04C75 /* 穿书后嫁给前夫他舅舅.txt */,
+				63A3F43925A8099600D0801E /* 废柴嫡女要翻天.txt */,
+				63A3F43625A8099600D0801E /* 神医魔后不好惹.txt */,
+				63A3F43225A8099400D0801E /* 兽黑狂妃皇叔逆天宠.txt */,
+				63A3F43425A8099500D0801E /* 团宠公主三岁半.txt */,
+				63A3F43525A8099500D0801E /* 王的女人谁敢动.txt */,
+				63A3F43A25A8099700D0801E /* 邪帝的神医弃妃.txt */,
+				637B181525973CB400C04C75 /* 元后传.txt */,
+				63A3F43125A8099400D0801E /* 皇叔溺宠废材小医妃.txt */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		63B33C5125B43FBD00C35D44 /* Bookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				63B33C5625B4401300C35D44 /* View */,
+				63B33C5225B4400300C35D44 /* BookshelfController.h */,
+				63B33C5325B4400300C35D44 /* BookshelfController.m */,
+			);
+			path = Bookshelf;
+			sourceTree = "<group>";
+		};
+		63B33C5625B4401300C35D44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63B33C5725B4402D00C35D44 /* BookshelfViewCell.h */,
+				63B33C5825B4402D00C35D44 /* BookshelfViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63C90F63259488F600E9DD80 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				632D98462583212F00B2BBCF /* BaseViewController.h */,
+				632D98472583212F00B2BBCF /* BaseViewController.m */,
+				632D984F25834B2A00B2BBCF /* PageViewController.h */,
+				632D985025834B2A00B2BBCF /* PageViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		63CE665D259DBCA7007AFFB4 /* RankList */ = {
+			isa = PBXGroup;
+			children = (
+				63CE665F259DBCB9007AFFB4 /* View */,
+				63CE665E259DBCB2007AFFB4 /* Controller */,
+			);
+			path = RankList;
+			sourceTree = "<group>";
+		};
+		63CE665E259DBCB2007AFFB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				632D985D258375DD00B2BBCF /* RankViewController.h */,
+				632D985E258375DD00B2BBCF /* RankViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63CE665F259DBCB9007AFFB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				632D98612583818800B2BBCF /* RankViewCell.h */,
+				632D98622583818800B2BBCF /* RankViewCell.m */,
+				63B33C7525B47CAE00C35D44 /* RankHeadView.h */,
+				63B33C7625B47CAE00C35D44 /* RankHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63E565422592F6FE003C5F06 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				63E565462592F6FE003C5F06 /* ChapterModel.h */,
+				63E565432592F6FE003C5F06 /* ChapterModel.m */,
+				63E565442592F6FE003C5F06 /* ReadTool.m */,
+				63E565452592F6FE003C5F06 /* ReadTool.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		63E565472592F6FF003C5F06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6350ED6925CE4BC800FA9120 /* UIView+rd_wid.h */,
+				6350ED6A25CE4BC800FA9120 /* UIView+rd_wid.m */,
+				632088AD25A4613A001290E3 /* UIImage+Blur.h */,
+				632088AE25A4613A001290E3 /* UIImage+Blur.m */,
+				63C88E6825A57084002DDF08 /* UINavigationController+back.h */,
+				63C88E6925A57084002DDF08 /* UINavigationController+back.m */,
+				632D985A2583718100B2BBCF /* BaseTableViewCell.h */,
+				632D985B2583718100B2BBCF /* BaseTableViewCell.m */,
+				63C16583258694390017BB3E /* BaseCollectionViewCell.h */,
+				63C16584258694390017BB3E /* BaseCollectionViewCell.m */,
+				63E565482592F6FF003C5F06 /* BottomMenuView.h */,
+				63E565492592F6FF003C5F06 /* TopMenuView.m */,
+				63E5654A2592F6FF003C5F06 /* MenuView.h */,
+				63E5654B2592F6FF003C5F06 /* ThemView.h */,
+				63E5654C2592F6FF003C5F06 /* UIImage+ImageEffects.h */,
+				63E5654D2592F6FF003C5F06 /* ReadView.h */,
+				63E5654E2592F6FF003C5F06 /* ThemView.m */,
+				63E5654F2592F6FF003C5F06 /* MenuView.m */,
+				63E565502592F6FF003C5F06 /* TopMenuView.h */,
+				63E565512592F6FF003C5F06 /* BottomMenuView.m */,
+				63E565522592F6FF003C5F06 /* ReadView.m */,
+				63E565532592F6FF003C5F06 /* UIImage+ImageEffects.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63E565542592F6FF003C5F06 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				63E565552592F6FF003C5F06 /* Const_UI.h */,
+				63E565572592F6FF003C5F06 /* UIView+JZExtension.h */,
+				63E565592592F6FF003C5F06 /* UIView+JZExtension.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		63E5655A2592F6FF003C5F06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63C90F63259488F600E9DD80 /* Base */,
+				63E5655F2592F6FF003C5F06 /* ReadViewController.h */,
+				63E5655B2592F6FF003C5F06 /* ReadViewController.m */,
+				63E5655C2592F6FF003C5F06 /* CurrentReadController.h */,
+				63E5655E2592F6FF003C5F06 /* CurrentReadController.m */,
+				63E5655D2592F6FF003C5F06 /* CoverController.h */,
+				63E565602592F6FF003C5F06 /* CoverController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63E5657125930AC1003C5F06 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				63E5656E259308AA003C5F06 /* Model.h */,
+				63E5656F259308AB003C5F06 /* Model.m */,
+				63E5657525930D67003C5F06 /* APIS.h */,
+				63E5657625930E48003C5F06 /* NetWorkManager.h */,
+				63E5657725930E48003C5F06 /* NetWorkManager.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		67460325CB4D23A27E763D20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C88E7D25A5BF00002DDF08 /* MBProgressHUD.framework */,
+				63C88E7A25A5BEF2002DDF08 /* Masonry.framework */,
+				63C88E7725A5BEED002DDF08 /* HMSegmentedControl.framework */,
+				63C88E7425A5BEEA002DDF08 /* AFNetworking.framework */,
+				63C88E6E25A5BED8002DDF08 /* YYModel.framework */,
+				D73D46E33370BED069864BE6 /* Pods_Read.framework */,
+				82F542309FE3089DEB403B91 /* Pods__________________.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632D9829258320D600B2BBCF /* 松鼠文学-热门全本小说电子书阅读器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632D9843258320D900B2BBCF /* Build configuration list for PBXNativeTarget "松鼠文学-热门全本小说电子书阅读器" */;
+			buildPhases = (
+				C4407606D666D70F3EA3910C /* [CP] Check Pods Manifest.lock */,
+				632D9826258320D600B2BBCF /* Sources */,
+				632D9827258320D600B2BBCF /* Frameworks */,
+				632D9828258320D600B2BBCF /* Resources */,
+				8F94D77152E2E5723155B816 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "松鼠文学-热门全本小说电子书阅读器";
+			productName = Read;
+			productReference = 632D982A258320D600B2BBCF /* 松鼠文学-热门全本小说电子书阅读器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632D9822258320D600B2BBCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Jarvis;
+				TargetAttributes = {
+					632D9829258320D600B2BBCF = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 632D9825258320D600B2BBCF /* Build configuration list for PBXProject "松鼠文学-热门全本小说电子书阅读器" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 632D9821258320D600B2BBCF;
+			productRefGroup = 632D982B258320D600B2BBCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632D9829258320D600B2BBCF /* 松鼠文学-热门全本小说电子书阅读器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632D9828258320D600B2BBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637B182525973CB400C04C75 /* 穿书后嫁给前夫他舅舅.txt in Resources */,
+				63A3F43C25A8099700D0801E /* 兽黑狂妃皇叔逆天宠.txt in Resources */,
+				63A3F43E25A8099700D0801E /* 团宠公主三岁半.txt in Resources */,
+				63A3F43B25A8099700D0801E /* 皇叔溺宠废材小医妃.txt in Resources */,
+				637B182A25973CB400C04C75 /* 元后传.txt in Resources */,
+				637B18002597396500C04C75 /* 至尊毒妃邪王的盛宠娇妃.txt in Resources */,
+				63A3F44425A8099700D0801E /* 邪帝的神医弃妃.txt in Resources */,
+				63A3F43F25A8099700D0801E /* 王的女人谁敢动.txt in Resources */,
+				632D983D258320D900B2BBCF /* LaunchScreen.storyboard in Resources */,
+				63A3F44125A8099700D0801E /* 丑女神医农门太子妃.txt in Resources */,
+				63A3F44325A8099700D0801E /* 废柴嫡女要翻天.txt in Resources */,
+				637B180425973A5200C04C75 /* 富贵小丫鬟.txt in Resources */,
+				63A3F44025A8099700D0801E /* 神医魔后不好惹.txt in Resources */,
+				632D983A258320D900B2BBCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F94D77152E2E5723155B816 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-松鼠文学-热门全本小说电子书阅读器/Pods-松鼠文学-热门全本小说电子书阅读器-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-松鼠文学-热门全本小说电子书阅读器/Pods-松鼠文学-热门全本小说电子书阅读器-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-松鼠文学-热门全本小说电子书阅读器/Pods-松鼠文学-热门全本小说电子书阅读器-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4407606D666D70F3EA3910C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-松鼠文学-热门全本小说电子书阅读器-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632D9826258320D600B2BBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E5656D2592F6FF003C5F06 /* CoverController.m in Sources */,
+				63B33C5425B4400300C35D44 /* BookshelfController.m in Sources */,
+				63E565652592F6FF003C5F06 /* MenuView.m in Sources */,
+				6396A4D625A31E72008F1100 /* ComicHead.m in Sources */,
+				632D98482583212F00B2BBCF /* BaseViewController.m in Sources */,
+				632D985F258375DD00B2BBCF /* RankViewController.m in Sources */,
+				6342BC7F25BA6A6C00645239 /* ReadFrame.m in Sources */,
+				63E565672592F6FF003C5F06 /* ReadView.m in Sources */,
+				63E5657825930E48003C5F06 /* NetWorkManager.m in Sources */,
+				632088AF25A4613A001290E3 /* UIImage+Blur.m in Sources */,
+				63C16585258694390017BB3E /* BaseCollectionViewCell.m in Sources */,
+				63565DDE259B2B1400187730 /* BoutiqueCell.m in Sources */,
+				63E56570259308AB003C5F06 /* Model.m in Sources */,
+				635FB0ED25957BE100144B5B /* TabBarController.m in Sources */,
+				63E5656C2592F6FF003C5F06 /* CurrentReadController.m in Sources */,
+				63364EEA25B036B500D198C2 /* CategoryViewController.m in Sources */,
+				6342BC8525BA6AAE00645239 /* ReadStateDefault.m in Sources */,
+				63565DE4259B301400187730 /* BoutiqueHeadCell.m in Sources */,
+				63B33C7725B47CAE00C35D44 /* RankHeadView.m in Sources */,
+				63E565622592F6FF003C5F06 /* ReadTool.m in Sources */,
+				632D98632583818800B2BBCF /* RankViewCell.m in Sources */,
+				6350ED7125CE783000FA9120 /* BoutiqueListViewController.m in Sources */,
+				63E565642592F6FF003C5F06 /* ThemView.m in Sources */,
+				63A3F43025A7FF3B00D0801E /* BoutiqueViewCell.m in Sources */,
+				63E5656A2592F6FF003C5F06 /* UIView+JZExtension.m in Sources */,
+				6342BC8125BA6A6C00645239 /* NSString+Read.m in Sources */,
+				637B1832259740A400C04C75 /* BoutiqueListController.m in Sources */,
+				63E565612592F6FF003C5F06 /* ChapterModel.m in Sources */,
+				6396A4D925A320FC008F1100 /* ComicViewController.m in Sources */,
+				632D982F258320D600B2BBCF /* AppDelegate.m in Sources */,
+				6350ED6B25CE4BC800FA9120 /* UIView+rd_wid.m in Sources */,
+				63C88E6A25A57084002DDF08 /* UINavigationController+back.m in Sources */,
+				632D985125834B2A00B2BBCF /* PageViewController.m in Sources */,
+				63B851E725CBF71B00F64897 /* BoutiqueFootCell.m in Sources */,
+				63364EE525B035E500D198C2 /* CategoryViewCell.m in Sources */,
+				63B33C5925B4402D00C35D44 /* BookshelfViewCell.m in Sources */,
+				63E565632592F6FF003C5F06 /* TopMenuView.m in Sources */,
+				6342BCA325BAA30600645239 /* ReadController.m in Sources */,
+				63E5656B2592F6FF003C5F06 /* ReadViewController.m in Sources */,
+				63E565682592F6FF003C5F06 /* UIImage+ImageEffects.m in Sources */,
+				63E565662592F6FF003C5F06 /* BottomMenuView.m in Sources */,
+				632D985C2583718100B2BBCF /* BaseTableViewCell.m in Sources */,
+				632D9840258320D900B2BBCF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		632D983B258320D900B2BBCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632D983C258320D900B2BBCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		632D9841258320D900B2BBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		632D9842258320D900B2BBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		632D9844258320D900B2BBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78404C7BE9B4AD5A51499F01 /* Pods-松鼠文学-热门全本小说电子书阅读器.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96TH85M4U8;
+				INFOPLIST_FILE = Read/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"HMSegmentedControl\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YYModel\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kroz.mjsn;
+				PRODUCT_NAME = "松鼠文学-热门全本小说电子书阅读器";
+				PROVISIONING_PROFILE_SPECIFIER = DIs_krozmjsn;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		632D9845258320D900B2BBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5107F35C20678749FD93D07 /* Pods-松鼠文学-热门全本小说电子书阅读器.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96TH85M4U8;
+				INFOPLIST_FILE = Read/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"HMSegmentedControl\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"YYModel\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kroz.mjsn;
+				PRODUCT_NAME = "松鼠文学-热门全本小说电子书阅读器";
+				PROVISIONING_PROFILE_SPECIFIER = DIs_krozmjsn;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632D9825258320D600B2BBCF /* Build configuration list for PBXProject "松鼠文学-热门全本小说电子书阅读器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632D9841258320D900B2BBCF /* Debug */,
+				632D9842258320D900B2BBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632D9843258320D900B2BBCF /* Build configuration list for PBXNativeTarget "松鼠文学-热门全本小说电子书阅读器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632D9844258320D900B2BBCF /* Debug */,
+				632D9845258320D900B2BBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 632D9822258320D600B2BBCF /* Project object */;
+}
